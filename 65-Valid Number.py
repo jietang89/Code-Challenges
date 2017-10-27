@@ -1,4 +1,9 @@
-# 65. Valid Number
+# -*- coding: utf-8 -*-
+# @Author: jietang
+# @Date:   2017-10-27 15:57:13
+# @Last Modified by:   jietang
+# @Last Modified time: 2017-10-27 17:07:52
+
 import re
 
 def isNumber(s):
