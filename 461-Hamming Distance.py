@@ -1,4 +1,9 @@
-#461. Hamming Distance
+# -*- coding: utf-8 -*-
+# @Author: jietang
+# @Date:   2017-10-27 16:52:08
+# @Last Modified by:   jietang
+# @Last Modified time: 2017-10-27 17:07:03
+
 
 class Solution:
 	def hammingDistance(self,x,y):
