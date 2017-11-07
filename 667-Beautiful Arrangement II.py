@@ -2,7 +2,7 @@
 # @Author: jietang
 # @Date:   2017-11-06 20:02:10
 # @Last Modified by:   jietang
-# @Last Modified time: 2017-11-06 21:27:23
+# @Last Modified time: 2017-11-06 22:17:10
 
 class Solution:
     def constructArray(self, n, k):
@@ -11,7 +11,7 @@ class Solution:
         :type k: int
         :rtype: List[int]
         """
-    ####Solution3
+    ####Solution 3
         l = list(range(1,n+1))
         a = 1
         b = k+1
@@ -24,7 +24,7 @@ class Solution:
         		b -= 1
         return l
 
-    # ####Solution2
+    # ####Solution 2
     #     l = list(range(1,n+1))
     #     for i in range(k+1):
     #     	if i % 2 == 0:
@@ -33,7 +33,7 @@ class Solution:
     #     		l[i] = k+1-i//2
     #     return l
 
-    # ####Solution1
+    # ####Solution 1
     #     a = range(1,k//2+2)
     #     b = range(k+1,k//2+1,-1)
     #     if k % 2 == 1:
